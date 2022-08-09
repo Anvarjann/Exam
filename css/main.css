@@ -111,6 +111,7 @@ body{
     padding-left: 185px;
 }
 .site-header{
+    margin-bottom: 18px;
     
 }
 .site-header__location::before{
@@ -415,7 +416,7 @@ body{
     left: calc(50% - 457px);
     content: "";
     display: block;
-    background-image: url("../images/“.svg");
+    background-image: url("../images/top.svg");
     background-repeat: no-repeat;
     background-position: calc(50%);
     width: 51px;
@@ -427,7 +428,7 @@ body{
     left: calc(50% + 395px);
     content: "";
     display: inline-block;
-    background-image: url("../images/“\ bottom.svg");
+    background-image: url("../images/bottom.svg");
     background-repeat: no-repeat;
     width: 100px;
     height: 42px;
@@ -995,6 +996,230 @@ body{
     background: #FFBD54;
 }
 
+.hero-contact {
+    padding-top: 118px;
+    padding-bottom: 25px;
+    background-image: url("../images/hero-bulldog.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 565px) calc(50% + 10px);
+}
+
+.hero-contact__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 117px;
+}
+.hero-top__textbox {
+    margin-left: 112px;
+}
+
+.hero-top__textbox--our-services{
+    margin-bottom: 139px;
+}
+
+.hero-top__text {
+    margin-top: 0;
+    margin-bottom: 21px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+
+    color: var(--main-text-color);
+}
+
+.hero-top__descbox{
+    width: 447px;
+}
+
+.hero-top__desc {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;    
+}
+
+.hero-contact__adress {
+    width: 153px;
+    margin-right: 118px;
+}
+.hero-contact__adress::before {
+    display: block;
+    width: 73px;
+    height: 73px;
+    margin-bottom: 30px;
+    background-image: url("../images/location.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.hero-contact__adress-link {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    
+    color: var(--main-text-color);
+}
+
+.hero-contact__time-list {
+    margin-top: 0;
+    margin-right: 118px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+}
+.hero-contact__time-list::before {
+    display: block;
+    width: 76px;
+    height: 72px;
+    margin-bottom: 27px;
+    background-image: url("../images/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.hero-contact__time-item {
+    margin-bottom: 12px;
+}
+.hero-contact__time-item:last-child {
+    margin-bottom: 0;
+}
+
+.hero-contact__time {
+    font-size: 16px;
+    line-height: 21px;
+    
+    color: var(--main-text-color);
+    
+}
+
+.hero-contact__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hero-contact__list::before {
+    display: block;
+    width: 46px;
+    height: 73px;
+    margin-bottom: 27px;
+    background-image: url("../images/phone-contact.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.hero-contact__item {
+    margin-bottom: 9px;
+}
+.hero-contact__item:last-child {
+    margin-bottom: 0px;
+}
+
+.hero-contact__fhone-link {
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    -webkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+.hero-contact__fhone-link:hover {
+    color: var(--main-hover-color);
+}
+.hero-contact__fhone-link:active {
+    color: var(--main-text-color);
+    opacity: 0.6;
+}
+
+.how-find-us {
+    padding-top: 503px;
+    padding-bottom: 206px;
+    background-image: url("../images/how-find-bg.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 207px) calc(50% - 250px);
+}
+
+.how-find-us__container-box {
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.how-find-us__text {
+    position: relative; 
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    margin-bottom: 60px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62px;
+
+    text-align: center;
+    
+    color: var(--main-text-color);
+}
+
+
+.how-find-us__box {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.how-find-us__box::before {
+    position: absolute;
+    top: -297px;
+    left: 10px;
+    display: inline-block;
+    width: 443px;
+    height: 342px;
+    background-image: url("../images/bulldog.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+.how-find-us__map {
+    width: 847px;
+    height: 466px;
+}
+
+.how-find-us__img {
+    width: 593px;
+    height: 466px;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                -webkit-min-device-pixel-ratio: 2),
+only screen and (                -o-min-device-pixel-ratio: 2/1),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .hero-asked-questions{
+        background-image: url("../images/doctor-cat@2x.png"), url("../images/yellow-parrot@2x.png");
+    }
+    .hero-contact{
+        background-image: url("../images/hero-bulldog@2x.png");
+    }
+    .how-find-us__box::before{
+        background-image: url("../images/bulldog@2x.png");
+    }
+}
+
 .footer {
     background-color: #f3f3f3;
     padding-bottom: 50px;
@@ -1172,4 +1397,245 @@ body{
 .footer-time-text {
     margin-top: 0;
     margin-bottom: 0;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9)
+}
+
+.modal--open{
+    display: block;
+}
+.site-body__stop{
+    overflow: hidden;
+}
+
+.modal__window {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 119px;
+    padding-right: 51px;
+    padding-bottom: 137px;
+    padding-left: 70px;
+    background-color: #FFBD54;
+    background-image: url("../images/modal-bg.svg"), url("../images/modal-dog-bg.png");
+    background-repeat: no-repeat;
+    background-position: center, left bottom;
+    -webkit-animation-name: modal-animation;
+            animation-name: modal-animation;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+            animation-fill-mode: forwards;
+}
+@-webkit-keyframes modal-animation{
+    0%{
+        top: -665px;   
+    }
+
+    100%{
+        top: 100px; 
+    }
+}
+@keyframes modal-animation{
+    0%{
+        top: -665px;   
+    }
+
+    100%{
+        top: 100px; 
+    }
+}
+.modal__x-button {
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    width: 18px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    background-image: url("../images/X.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.modal__authorization {
+    padding-top: 29px;
+    margin-right: 20px;
+}
+
+.modal__authorization-text {
+    display: inline-block;
+    font-size: 20px;
+
+    color: var(--main-text-color);
+}
+
+.modal__link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 238px;
+    margin-top: 21px;
+    padding: 14px 0;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+    color: var(--main-text-color);
+    background-color: #fff;
+}
+.modal__link::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+    background-repeat: no-repeat;
+    background-position: center;
+    content: "";
+}
+
+
+.modal__link--google::before {
+    background-image: url("../images/google.svg");
+}
+
+
+.modal__link--facebook::before {
+    background-image: url("../images/facebook.svg");
+}
+
+.modal__form-box{
+    width: 358px;
+}
+
+.modal-text{
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 54px;
+
+    color: var(--main-text-color);
+}
+
+
+
+.modal__input-zone {
+    width: 335px;
+    padding-top: 16px;
+    padding-right: 22px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-text-color);
+    
+    background-color: #fff;
+    border: none;
+}
+.modal__input-zone::-webkit-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-desc-color);
+}
+.modal__input-zone::-moz-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-desc-color);
+}
+.modal__input-zone:-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-desc-color);
+}
+.modal__input-zone::-ms-input-placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-desc-color);
+}
+.modal__input-zone::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    color: var(--main-desc-color);
+}
+.modal__input-zone:focus{
+    outline: 2px solid var(--main-hover-color);
+}
+.modal__input-zone:not(:focus):not(:-moz-placeholder-shown):invalid{
+    outline: 2px solid #dc4d41;
+    color: #dc4d41;
+}
+.modal__input-zone:not(:focus):not(:-ms-input-placeholder):invalid{
+    outline: 2px solid #dc4d41;
+    color: #dc4d41;
+}
+.modal__input-zone:not(:focus):not(:placeholder-shown):invalid{
+    outline: 2px solid #dc4d41;
+    color: #dc4d41;
+}
+
+.modal__input-zone--question {
+    width: 335px;
+    height: 165px;
+    margin-top: 21px;
+    margin-bottom: 27px;
+    resize: none;
+}
+
+.modal__button {
+    width: 193px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    background-color: #000000;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                -webkit-min-device-pixel-ratio: 2),
+only screen and (                -o-min-device-pixel-ratio: 2/1),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+    .modal__window{
+        background-image: url("../images/modal-dog-bg@2x.png");
+    }
 }
